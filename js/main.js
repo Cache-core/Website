@@ -425,7 +425,7 @@
 
     var printRepoContribs = function () {
         return {
-            url: 'https://api.github.com/repos/Cache-core/Cache/contributors',
+            url: 'https://api.github.com/repos/Cache-core/Testnet/contributors',
             callback: function () {
                 var responseObj = JSON.parse(this.responseText);
                 var contributors = responseObj[0].contributions;
