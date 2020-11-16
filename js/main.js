@@ -437,7 +437,7 @@
 
     var printNetworkStats = function () {
         return {
-            url: 'https://letshash.it:8275/stats',
+            url: 'https://letshash.online:14002/stats',
             callback: function () {
                 var responseObj = JSON.parse(this.responseText);
                 var el = $('#stats-blockchain-height');
